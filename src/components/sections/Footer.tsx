@@ -74,7 +74,7 @@ export function Footer() {
 
         <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="font-body text-xs text-white/50">
-            © {new Date().getFullYear()} {SITE.name}. NPN #{SITE.npn}. Licensed in all 50 states.
+            © {new Date().getFullYear()} {SITE.name} · A Contractors Choice Agency Brand · NPN #{SITE.npn} · Licensed in all 50 states.
           </p>
           <div className="flex gap-6">
             <Link href="/privacy" className="font-body text-xs text-white/50 hover:text-white/70 transition-colors">Privacy</Link>
